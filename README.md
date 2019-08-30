@@ -5,13 +5,13 @@
 
 Espaço para a divulgação de vagas para desenvolvedores via _issues_ do Github.
 
-Vagas disponíveis em https://github.com/backend-ao/vagas/issues
+Vagas disponíveis em https://github.com/backend-pt/vagas/issues
 
 ### Cadastrando uma vaga
 
 1. Abra uma **issue** e, no titulo desta _issue_, coloque o nome da cidade entre colchetes seguido do nome da vaga e nome da empresa.
 
-Exemplo: `[Luanda] Back-End Developer na [NOME DA EMPRESA]`
+Exemplo: `[Porto] Back-End Developer na [NOME DA EMPRESA]`
 
 2. Informe quais _labels_ devemos adicionar, contendo o nível de experiência desejada e a forma de contração.
 
@@ -34,12 +34,12 @@ da comunidade forkaram esse repositório e criaram outras listas específicas
 para diferentes _stacks_ e estados do país. Confira abaixo as outras
 listas onde você poderá postar sua vaga:
 
-- [Vagas para desenvolvedores Front-end](https://github.com/frontend-ao/vagas)
+- [Vagas para desenvolvedores Front-end](https://github.com/frontend-pt/vagas)
 
 ## Licença
 
 [MIT](/LICENSE) &copy; FrontendBR, Backend Angola
 
-## Repositórios da Back-End Angola
+## Repositórios da Back-End Portugal
 
-- [Vagas](https://github.com/backend-ao/vagas)
+- [Vagas](https://github.com/backend-pt/vagas)
