@@ -43,7 +43,7 @@ listas onde você poderá postar sua vaga:
 ## Repositórios da Back-End Portugal
 
 - [Vagas](https://github.com/backend-pt/vagas)
-- [Eventos](https://github.com/backend-pt/vagas)
+- [Eventos](https://github.com/backend-pt/eventos)
 
 ## Agradecimento
 
