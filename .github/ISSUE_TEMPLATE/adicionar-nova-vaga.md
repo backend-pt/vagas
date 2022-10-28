@@ -16,7 +16,7 @@ Não faça distinção de gênero no título da vaga.
 Use: "Back-End Developer / Back-End Engineer" ao invés de 
 "Desenvolvedor Back-End" \o/
 
-Exemplo: `[Porot] Back-End Engineer na NOME DA EMPRESA`
+Exemplo: `[Porto] Back-End Engineer na NOME DA EMPRESA`
 ==================================================
 -->
 
