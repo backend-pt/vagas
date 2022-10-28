@@ -10,4 +10,4 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           labels-not-allowed: '["Falta Informações","Request changes","stale"]'
-          labels-synonyms: '{"pleno":["mid", "middle", "plain"],"remoto":["remote", "home-office", "home"], "hibrido":["hybrid"], "presencial":["office"]}'
+          labels-synonyms: '{"pleno":["mid", "middle", "plain"],"remoto":["remote", "home-office", "home"], "hibrido":["hybrid"], "presencial":["office"], "contrato":["clt"], "rv":["pj","cooperado"]}'
