@@ -13,10 +13,10 @@ POR FAVOR, SÓ POSTE SE A VAGA FOR PARA BACK-END em Portugal ou permita remoto!
 
 Não faça distinção de gênero no título da vaga.
 
-Use: "Baccked-End Developer / Back-End Engineer" ao invés de 
+Use: "Back-End Developer / Back-End Engineer" ao invés de 
 "Desenvolvedor Back-End" \o/
 
-Exemplo: `[São Paulo] Brack-End Engineer na NOME DA EMPRESA`
+Exemplo: `[Porot] Back-End Engineer na NOME DA EMPRESA`
 ==================================================
 -->
 
