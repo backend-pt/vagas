@@ -1,101 +1,170 @@
----
 name: Adicionar nova vaga
-about: Não esqueça de seguir todas as instruções do template antes de abrir a vaga.
-title: "[Cidade] Back-end Developer na NOME DA EMPRESA"
-labels: ''
-assignees: ''
+description: Não esqueça de seguir todas as instruções do template antes de abrir a vaga.
+title: '[Cidade] Título da Vaga @ Nome da Empresa'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## :warning: Observações
 
----
+        - Só publique vagas para back-end
+        - Não faça destinção de gênero no título da vaga
+        - Use: "Pessoa desenvolvedora" ou "Backend Developer" ao invés de "Desenvolvedor Back-End" \o/
 
-<!-- 
-==================================================
-POR FAVOR, SÓ POSTE SE A VAGA FOR PARA BACK-END em Portugal ou permita remoto!
+        ---
 
-Não faça distinção de gênero no título da vaga.
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Nossa empresa
+      placeholder: 'Exemplo: Aqui na Corporação ACME somos líderes em...'
 
-Use: "Back-End Developer / Back-End Engineer" ao invés de 
-"Desenvolvedor Back-End" \o/
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Descrição da vaga
+      placeholder: 'Exemplo: Projeto bazinga em NestJS, etc.'
 
-Exemplo: `[Porto] Back-End Engineer na NOME DA EMPRESA`
-==================================================
--->
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Local
+      placeholder: 'Exemplo: Remoto ou Escritório, São Paulo - Vila Olímpia'
 
-## Descrição da vaga
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Requisitos
+      value: |
+        #### Obrigatórios:
+        - 2 anos de experiência com NestJS
+        - 2 anos de experiência com mongodb
 
-Projeto bazinga em NodeJS, etc.
+        ### Desejáveis:
+        - conhecimentos em Docker
+        - conhecimentos em AWS
 
-## Local
+        ### Diferenciais:
+        - projetos open source
 
-Remoto ou Escritório, cidade do Porto, Portugal
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Benefícios
+      value: |
+        - Plano de saúde
+        - Seguro de vida
+        - VR de R$ X/dia
+        - Auxílio creche
+        - ...
 
-## Benefícios
+        #### Diferenciais
+        - 2 horas de almoço
+        - monte a sua máquina como desejar
+        - frigobar sempre cheio :P
+        - sala de jogos
+        - ...
 
-- Plano de saúde
-- Seguro de vida
-- VR de R$ X/dia
-- Auxílio creche
-- ...
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: Contratação
+      placeholder: PJ a combinar
 
-#### Diferenciais
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: Como se candidatar
+      placeholder: |
+        Por favor envie um email para email@email.com.br com seu CV anexado - enviar no assunto: Vaga NestJS
 
-- 2 horas de almoço
-- monte a sua máquina como desejar
-- frigobar sempre cheio :P
-- sala de jogos
-- ...
+  - type: input
+    validations:
+      required: false
+    attributes:
+      label: Tempo médio de feedbacks
+      placeholder: |
+        Costumamos enviar feedbacks em até XX dias após cada processo.
 
-## Requisitos
+  - type: markdown
+    attributes:
+      value: |
+        ## Labels
 
-**Obrigatórios:**
-- 3 anos de experiência com Node
-- 2 anos de experiência com mongodb e express
+  - type: input
+    validations:
+      required: false
+    attributes:
+      label: Keywords
+      placeholder: nestjs mysql
 
-**Desejáveis:**
-- conhecimentos em ruby on rails
-- conhecimentos em C#
+  - type: checkboxes
+    attributes:
+      label: Alocação
+      options:
+        - label: Alocado
+          required: false
+        - label: Remoto
+          required: false
+        - label: Presencial
+          required: false
+        - label: Híbrido
+          required: false
 
-**Diferenciais:**
-- projetos opensource
+  - type: checkboxes
+    attributes:
+      label: Regime
+      options:
+        - label: CLT
+          required: false
+        - label: Estágio
+          required: false
+        - label: Freela
+          required: false
+        - label: PJ
+          required: false
+        - label: Cooperado
+          required: false
 
-## Contratação
-
-RV a combinar (diária ou por hora)
-
-## Nossa empresa
-
-Aqui na Corporação ACME somos líderes em...
-
-## Como se candidatar
-
-Por favor envie um email para email@email.com.br com seu CV anexado - enviar no assunto: Vaga NodeJS
-
-## Tempo médio de feedbacks
-
-Costumamos enviar feedbacks em até XX dias após cada processo.
-E-mail para contato em caso de não haver resposta: feedbacks@empresasuperlegal.com.br
-
-## Labels
-<!-- retire os labels que não fazem sentido à vaga, pode deixar quantas quiser em cada grupo sem problemas -->
-
-#### Alocação
-- Alocado
-- Remoto
-- Presencial
-- Híbrido
-
-#### Regime
-- Contrato
-- RV
-- Estágio
-- Freela
-
-#### Nível
-- Júnior
-- Pleno
-- Sênior
-- Especialista
-
-#### Período
-- Full time
-- Part time
-- Projeto
+  - type: checkboxes
+    attributes:
+      label: Nível
+      options:
+        - label: Júnior
+          required: false
+        - label: Pleno
+          required: false
+        - label: Sênior
+          required: false
+        - label: Especialista
+          required: false
+          
+  - type: checkboxes
+    attributes:
+      label: Período
+      options:
+        - label: Full time
+          required: false
+        - label: Part Time
+          required: false
+        - label: Projeto
+          required: false
+          
+  - type: dropdown
+    attributes:
+      label: Remuneração
+      options:
+        - R$ 1k - R$ 5k
+        - R$ 5k - R$ 10k
+        - R$ 10k - R$ 15k
+        - R$ 15k - R$ 20k
+        - R$ 20k+
+    validations:
+      required: false
