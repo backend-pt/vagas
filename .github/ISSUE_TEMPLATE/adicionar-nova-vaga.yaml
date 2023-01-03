@@ -161,6 +161,6 @@ body:
         - € 1k - € 2k
         - € 2k - € 3k
         - € 3k - € 5k
-        - € 5+
+        - € 5k+
     validations:
       required: false
