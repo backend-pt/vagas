@@ -124,14 +124,12 @@ body:
       options:
         - label: Contrato
           required: false
-        - label: Estágio
-          required: false
         - label: Freela
           required: false
         - label: RV
           required: false
 
-- type: checkboxes
+  - type: checkboxes
     attributes:
       label: Nível
       options:
