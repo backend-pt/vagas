@@ -157,10 +157,10 @@ body:
     attributes:
       label: Remuneração
       options:
-        - R$ 1k - R$ 5k
-        - R$ 5k - R$ 10k
-        - R$ 10k - R$ 15k
-        - R$ 15k - R$ 20k
-        - R$ 20k+
+        - Até € 1k
+        - € 1k - € 2k
+        - € 2k - € 3k
+        - € 3k - € 5k
+        - € 5+
     validations:
       required: false
