@@ -56,6 +56,7 @@ listas onde você poderá postar sua vaga:
 - [Vagas para desenvolvedores Rust](https://github.com/rustdevbr/vagas)
 - [Vagas para desenvolvedores Elm](https://github.com/FidelisClayton/elm-jobs)
 - [Vagas para desenvolvedores Kotlin](https://github.com/kotlin-br/vagas)
+- [Vagas para desenvolvedores Node.JS](https://github.com/nodejsdevbr/vagas)
 
 #### Por localidade
 
