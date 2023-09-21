@@ -50,13 +50,14 @@ listas onde você poderá postar sua vaga:
 - [Vagas para desenvolvedores Python](https://github.com/pydevbr/vagas)
 - [Vagas para desenvolvedores Vue.js](https://github.com/vuejs-br/vagas)
 - [Vagas para desenvolvedores Go/Golang](https://github.com/Gommunity/vagas)
-- [Vagas para Flutter](https://github.com/flutter-brazil/vagas)
-- [Vagas para React/React Native](https://github.com/react-brasil/vagas)
+- [Vagas para desenvolvedores Flutter](https://github.com/flutter-brazil/vagas)
+- [Vagas para desenvolvedores React/React Native](https://github.com/react-brasil/vagas)
 - [Vagas para desenvolvedores .NET](https://github.com/dotnetdevbr/vagas)
 - [Vagas para desenvolvedores Rust](https://github.com/rustdevbr/vagas)
 - [Vagas para desenvolvedores Elm](https://github.com/FidelisClayton/elm-jobs)
 - [Vagas para desenvolvedores Kotlin](https://github.com/kotlin-br/vagas)
 - [Vagas para desenvolvedores Node.JS](https://github.com/nodejsdevbr/vagas)
+- [Vagas para desenvolvedores Ruby](https://github.com/rubydevbr/vagas)
 
 #### Por localidade
 
