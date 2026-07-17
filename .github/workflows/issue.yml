@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Renato66/auto-label@v3
+      - uses: Renato66/auto-label@f6a6e622dd6cab2171b38f4dd4616c1bf65a65dd # v3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           labels-not-allowed: '["Falta Informações","Request changes","stale"]'
