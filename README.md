@@ -7,6 +7,8 @@ Espaço para a divulgação de vagas para desenvolvedores via _issues_ do Github
 
 Vagas disponíveis em https://github.com/backend-pt/vagas/issues
 
+Você também pode [pesquisar e filtrar as vagas deste repositório no openings.dev](https://openings.dev/communities/backend-pt/vagas). Cada resultado leva à issue original, com os detalhes atualizados e as instruções para candidatura.
+
 ### Cadastrando uma vaga
 
 1. Abra uma **issue** e, no titulo desta _issue_, coloque o nome da cidade entre colchetes seguido do nome da vaga e nome da empresa.
@@ -79,4 +81,3 @@ listas onde você poderá postar sua vaga:
 ## Agradecimento
 
 Especial para a comunidade [Front-End BR](https://github.com/frontendbr/) que nos inspirou, e essa página é um fork deles :)
-
